@@ -1,4 +1,51 @@
+html{
+  background: black;
+}
+body{
+  background: rgb(113,169,244);
+  width: 1600px;
+  margin: 0 auto;
+}
+
 .butterflyIMG{
     width: 600px;
     height: 400px;
 }
+.sidebyside{
+    flex-direction: row;
+}
+body {
+    background: rgb(113,169,244);
+  }
+  p {
+    color: white;
+  }
+  h1 {
+    font-weight: bold;
+    color:white;
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  h2 {
+    font-weight: bold;
+    color:white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  h4 {
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    font-style: italic ;
+  }
+  a {
+  
+    font-size: 30px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .nav{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+  }
